@@ -9,4 +9,8 @@ export class BookingsService{
         @InjectRepository(Booking)
         private readonly bookingsRepository: Repository <Booking>
     ){}
+
+    async createBooking(bikeId: string, userId: string,startDate: Date,endDate: Date){
+
+    }
 }
